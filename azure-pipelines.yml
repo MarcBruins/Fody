@@ -9,5 +9,5 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- script: - script:  nukeeper@0.1.19 inspect
+- script: nukeeper@0.1.19 inspect
   displayName: 'inspect'
