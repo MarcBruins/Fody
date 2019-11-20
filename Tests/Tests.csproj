@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.Build.Tasks.Core" Version="15.6.82" />
     <PackageReference Include="Microsoft.Build.Framework" Version="15.6.82" />
     <PackageReference Include="ApprovalTests" Version="3.0.13" Condition="$(TargetFramework) == 'net46'" />
-    <PackageReference Include="ApprovalUtilities" Version="3.0.13" Condition="$(TargetFramework) == 'net46'" />
+    <PackageReference Include="ApprovalUtilities" Version="4.4.0" Condition="$(TargetFramework) == 'net46'" />
     <PackageReference Include="Moq" Version="4.8.2" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
